@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Microsoft - Cloud, Computers, Apps and Gaming</title>
+    <link href="https://db.onlinewebfonts.com/c/ba047a29b78bffd9a985b2e86b289fe8?family=MWF+MDL2+Assets"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="font-sans">
+    <nav class="flex md:justify-around items-center justify-center  overflow-hidden h-12">
+        <div class="flex items-center h-full">
+            <img class="my-3 h-6 cursor-pointer"
+                src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                alt="logo">
+
+            <ul class="flex mx-8 gap-6 text-xs cursor-pointer">
+                <li class="hover:underline-offset-2 hover:underline decoration-2 hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Microsoft 365
+                </li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Teams</li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Copilot</li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Windows</li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Surface</li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Xbox</li>
+                <li class="hover:underline-offset-2 hover:underline decoration-2  hidden lg:block active:border-dashed active:border-black active:border-[1px] p-3">Support</li>
+            </ul>
+        </div>
+        <div class="flex items-center">
+            <ul class="flex text-xs gap-6 cursor-pointer">
+                <li class=" hidden md:block hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">All Microsoft</li>
+                <li class=" hidden md:block hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Search</li>
+                <li class=" hidden md:block hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Cart</li>
+                <li class=" hidden md:block hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Sign in</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="div1 ">
+        <img class="w-screen relative hidden xl:block"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600"
+            alt="">
+        <img class="xl:hidden block w-screen"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP2-859x540"
+            alt="">
+        <div class="xl:absolute top-24 xl:shadow-none shadow-lg bg-white xl:w-2/5 xl:mx-10">
+            <div class="xl:p-10 p-5">
+                <button class="bg-custom bg-myYellow px-6 py-2 text-sm font-bold">New</button>
+                <h1 class="text-5xl my-4">Meet Surface Pro</h1>
+                <p class="text-lg">This laptop's unrivalled flexibility and AI features like Live Captions and
+                    Cocreator, enable you to do more than you ever imagined.
+                    Learn more</p>
+                <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 my-4 text-white">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="div2 hidden">
+        <img class="m-auto w-screen hidden xl:block"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682:VP5-1920x600"
+            alt="">
+        <img class="xl:hidden block w-screen m-auto"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682:VP2-859x540"
+            alt="">
+        <div class="xl:absolute xl:top-24 xl:shadow-none shadow-lg xl:w-2/5 xl:mx-10 flex justify-center">
+            <div class="xl:p-10 p-5">
+                <button class="bg-custom bg-myYellow px-6 py-2 text-sm font-bold">New</button>
+                <h1 class="text-5xl my-4">Meet Surface Laptop</h1>
+                <p class="text-lg">Unlock AI features like Live Captions and Cocreator with this exceptionally
+                    powerful
+                    laptop.
+                    Learn more</p>
+                <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 my-4 text-white">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center text-4xl gap-8 mt-4">
+        <button class="forward text-3xl font-thin hover:-translate-x-2 active:border-dotted active:border-black active:border-[3px] px-2" onclick="next()">&#706</button>
+        <div class="empty text-base flex items-center">○</div>
+        <div class="filled text-base flex items-center">⬤</div>
+        <button class="backward text-3xl font-thin hover:translate-x-2 active:border-dotted active:border-black active:border-[3px] px-2" onclick="next()">&#707</button>
+    </div>
+    <div class="flex mt-16 justify-center text-sm">
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="flex flex-col items-center cursor-pointer"><img class="h-[40px]"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+                    alt="">
+                <h1 class="text-blue-600 underline-offset-2 underline font-bold">Choose your Microsoft 365</h1>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer"><img class="h-[40px]"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40"
+                    alt="">
+                <h1 class="text-blue-600 underline-offset-2 underline font-bold">Shop Xbox</h1>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer"><img class="h-[40px]"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+                    alt="">
+                <h1 class="text-blue-600 underline-offset-2 underline font-bold">Get Windows 11</h1>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer"><img class="h-[40px]"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40"
+                    alt="">
+                <h1 class="text-blue-600 underline-offset-2 underline font-bold">Explore Surface devices</h1>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-4 my-16 sm:mx-12 mx-6 items-center">
+        <div class="shadow-lg flex flex-col justify-between items-start h-[500px]"><img class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-Copilot-App-3screens?wid=380&hei=213&fit=crop"
+                alt="">
+            <h1 class="text-3xl mx-4 my-4">Unlock your potential with Microsoft Copilot</h1>
+            <p class="mx-4">Get things done faster and unleash your creativity with the power of AI anywhere you go.</p>
+            <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 mx-4 text-white mb-4">Download the Copilot App</button>
+        </div>
+        <div class="shadow-lg flex flex-col justify-between items-start h-[500px]"><img class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Lifestyle-Sandstone-Icon-Toss?wid=380&hei=213&fit=crop"
+                alt="">
+            <h1 class="text-3xl mx-4 my-4">Maximise the everyday with Microsoft 365</h1>
+            <p class="mx-4">Get online protection, secure cloud storage and innovative apps designed to fit your needs –
+                all in one
+                plan.</p>
+            <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 mx-4  text-white">For one person</button>
+            <div class="flex gap-2 mx-4 mb-4">
+                <p class="text-blue-600 hover:underline text-md">For upto 6 people </p>
+                <p class="text-blue-600 text-md">&#707</p>
+            </div>
+        </div>
+        <div class="shadow-lg flex flex-col justify-between items-start h-[500px]"><img class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=380&hei=213&fit=crop"
+                alt="">
+            <h1 class="text-3xl mx-4 my-4">Xbox Series X</h1>
+            <p class="mx-4">The fastest, most powerful Xbox ever.</p>
+            <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 mx-4 mb-6 text-white">Shop Xbox Series X</button>
+        </div>
+        <div class="shadow-lg flex flex-col justify-between items-start h-[500px]"><img class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=380&hei=213&fit=crop"
+                alt="">
+            <h1 class="text-3xl  my-4 mx-4">Xbox Series S</h1>
+            <p class="mx-4">Next-gen performance in the smallest Xbox ever.</p>
+            <button class="bg-myBlue hover:bg-blue-800 px-6 py-2  mb-6 text-white mx-4">Shop Xbox Series S</button></div>
+    </div>
+    <div class="flex flex-col lg:flex-row mx-4 lg:mx-12">
+        <div
+            class="flex flex-col bg-white order-2 lg:order-1 justify-center items-center lg:text-white shadow-lg lg:bg-black">
+            <div class="lg:m-24 m-4">
+                <h1 class="text-5xl my-4">Xbox Game Pass Ultimate</h1>
+                <p class="my-4">Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on
+                    console and PC.</p>
+                <button class="bg-myBlue hover:bg-blue-800 px-6 py-2 mb-4 text-white">Join now</button>
+            </div>
+        </div>
+        <img class="lg:order-2"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate:VP2-859x540"
+            alt="">
+    </div>
+    <div class="lg:mx-12 mx-4 my-24">
+        <div class="text-4xl">For business</div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="shadow-lg"><img class="w-full"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Surf-CP-SurfaceFamilyForBusiness?wid=380&hei=213&fit=crop"
+                    alt="">
+                <h1 class="text-3xl mt-14 mx-4">Surface for Business</h1>
+                <p class="mx-4 my-4">No matter what you do, there’s a Surface to help you do it.</p><button
+                    class="bg-myBlue hover:bg-blue-800 px-6 py-2 mt-12 text-white mx-4">Shop now</button>
+            </div>
+            <div class="shadow-lg"><img class="w-full"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=380&hei=213&fit=crop"
+                    alt="">
+                <h1 class="text-3xl mt-14 mx-4">Get Microsoft Teams for free</h1>
+                <p class="mx-4 my-4">Online meetings, chat and shared cloud storage – all in one place.</p><button
+                    class="bg-myBlue hover:bg-blue-800 px-6 py-2 my-4 text-white mx-4">Sign up for free</button>
+            </div>
+            <div class="shadow-lg"><img class="w-full"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-Teams-Commercial-Meeting?wid=380&hei=213&fit=crop"
+                    alt="">
+                <h1 class="text-3xl mt-14 mx-4">Get Microsoft Teams for your business</h1>
+                <p class="mx-4 my-4">Online meetings, chat, real-time collaboration, and shared cloud storage – all in
+                    one place.</p><button class="bg-myBlue hover:bg-blue-800 px-6 py-1 my-4 text-white mx-4 text-left">Find the right plan
+                    for your business</button>
+            </div>
+            <div class="shadow-lg"><img class="w-full"
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Commercial?wid=380&hei=213&fit=crop"
+                    alt="">
+                <button class="bg-custom bg-myYellow px-6 py-2 text-sm font-bold mx-4 my-2">New</button>
+                <h1 class="text-3xl mb-8 mx-4">Copilot for Microsoft 365</h1>
+                <p class="mx-4">Save time and focus on the things that matter most with AI in Microsoft 365 for
+                    business.</p><button class="bg-myBlue hover:bg-blue-800 px-6 py-2 my-4 text-white mx-4">Learn more</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex items-center ml-12 gap-4">
+        <h1>Follow Microsoft</h1>
+        <img class="w-8" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook%202x?scl=1"
+            alt=""><img class="w-8"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-MSCOM-X-64x64?scl=1" alt=""><img
+            class="w-8" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube%202x?scl=1" alt="">
+    </div>
+    <footer class="bg-gray-200 mt-12">
+        <div class="grid sm:grid-cols-3 lg:grid-cols-6 mx-12 gap-4">
+            <div class="mt-8">
+                <h1>What's new</h1>
+                <div class="text-xs">
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Surface Pro</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Surface Laptop</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Copilot</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft 365</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Windows 11 apps</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>Microsoft Store</h1>
+                <div class="text-xs">
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Account profile</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Download Center</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Store Support</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Returns</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Order tracking</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>Education</h1>
+                <div class="text-xs">
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft in education</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Devices for education</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Teams for Education</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft 365 Education</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Office Education</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Educator training and development</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Deals for students and parents</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Azure for students</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>Business</h1>
+                <div class="text-xs">
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Cloud</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Security</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Azure</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Dynamics 365</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft 365</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Advertising</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Copilot for Microsoft 365</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Teams</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>Developer & IT</h1>
+                <div class="text-xs">
+                    <p class="my-4">Developer Center</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Documentation</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Learn</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Tech Community</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Azure Marketplace</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">AppSource</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Microsoft Power Platform</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Visual Studio</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>Company</h1>
+                <div class="text-xs">
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Carrers</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">About Microsoft</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Company news</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Privacy at Microsoft</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Investors</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Security</p>
+                    <p class="my-4 hover:underline-offset-2 hover:underline decoration-2 active:border-dashed active:border-black active:border-[1px] p-3">Sustainability</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
